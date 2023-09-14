@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lexend:wght@300;500&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500&family=Prata&family=Roboto+Condensed&family=Zilla+Slab:wght@400;600&display=swap');
+
+body{
+    background-color: rgba(255, 192, 203, 0.733);
+    font-family: 'Lexend';
+    text-align: center;
+}
+
+h1{
+font-size: 3em;
+color: rgb(231, 85, 109);
+font-weight: 500;
+margin-top: 1em;
+}
+
+.cell{
+    background-color: rgb(165, 4, 144);
+    display: inline-block;
+    height: 5em;
+    width: 5em;
+    margin: 1em;
+    color: white;
+    border-radius: 2em;
+}
+
+#buttonDiv{
+    width: 24em;
+    height: 6em;
+    margin: 5em;
+    background-color: rgb(83 22 65);
+    color: white;
+}
+
+#button{
+    width: 8em;
+    height: 4em;
+    margin: 2em 0 5em;
+    background-color: #5f0835;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 2em
+}
+
+.par{
+    padding-top: 2em;
+}
+
+#divCells{
+    margin-top: 2em;
+}
