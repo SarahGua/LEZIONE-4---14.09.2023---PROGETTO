@@ -43,3 +43,9 @@ const selectButton = function(){
 }
 
 selectButton()
+
+ALTRA SOLUZIONE
+// for (let i=0; i<allCells.length; i++){
+//     if (numbRandom === i+1){
+//         allCells[i].parentElement.style.backgroundColor = 'black'
+ 
