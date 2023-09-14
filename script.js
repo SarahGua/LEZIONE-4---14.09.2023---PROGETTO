@@ -29,12 +29,14 @@ createDivButton()
 const selectButton = function(){
     const getButton = document.getElementById('button')
     getButton.addEventListener('click', function(e){
-        e.preventDefault
+        // e.preventDefault()
         const numbRandom = Math.floor(Math.random()*76 + 1) 
-        const  allCells = document.querySelectorAll('.cell')
-        for (let i=0; i<67; i++){
-         if (numbRandom === allCells){
-             allCells[i].style.backgroundColor = 'pink'
+        console.log(numbRandom)
+        const  allCells = document.querySelectorAll('.cell p')
+        console.log(allCells)
+        for (let i=0; i<allCells.length; i++){
+         if (numbRandom === parseInt(allCells[i].innerText)){
+             allCells[i].parentElement.style.backgroundColor = 'black'
          }
         }
      })
